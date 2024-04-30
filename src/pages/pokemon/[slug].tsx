@@ -5,7 +5,7 @@ import { dangerHTML, type RequestContext } from "brisa";
 
 export default function PokemonPage({}, { route }: RequestContext) {
   const slug = route.params.slug;
-  const pokemon = pokemons.find((p) => p.slug === slug) as Pokemon;
+  const pokemon = pokemons.find((p) => p.slug === slug) ?? {} as Pokemon;
 
   return (
     <div class="max-w-4xl mx-auto relative">

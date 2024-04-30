@@ -12,6 +12,7 @@
     "brisa": "0.0.48"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7",
     "@types/bun": "latest"
   },
   "peerDependencies": {
