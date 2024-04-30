@@ -9,10 +9,10 @@
     "start": "brisa start"
   },
   "dependencies": {
-    "brisa": "0.0.48"
+    "brisa": "0.0.50"
   },
   "devDependencies": {
-    "@flydotio/dockerfile": "^0.5.7",
+    "@flydotio/dockerfile": "0.5.7",
     "@types/bun": "latest"
   },
   "peerDependencies": {
