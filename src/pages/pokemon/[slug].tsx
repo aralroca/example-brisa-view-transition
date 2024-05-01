@@ -5,7 +5,7 @@ import { dangerHTML, type RequestContext } from "brisa";
 
 export default function PokemonPage({}, { route }: RequestContext) {
   const slug = route.params.slug;
-  const pokemon = pokemons.find((p) => p.slug === slug) ?? {} as Pokemon;
+  const pokemon = pokemons.find((p) => p.slug === slug) ?? ({} as Pokemon);
 
   return (
     <div class="max-w-4xl mx-auto relative">
@@ -53,12 +53,11 @@ export default function PokemonPage({}, { route }: RequestContext) {
             </p>
           </div>
           <p>
-          <Attacks attacks={pokemon.attacks} />
+            <Attacks attacks={pokemon.attacks} />
           </p>
         </article>
       </div>
-      <div class="py-6 md:py-20">
-      </div>
+      <div class="py-6 md:py-20"></div>
       <h4 class="font-bold text-lg pb-6">More pokemons</h4>
       <div class="flex flex-wrap justify-center sm:justify-normal gap-4">
         {pokemons

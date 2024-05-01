@@ -36,4 +36,3 @@ export default function PokemonCard({ pokemon }: { pokemon: Pokemon }) {
     </a>
   );
 }
-

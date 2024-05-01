@@ -1,6 +1,10 @@
 import type { Pokemon } from "@/data";
 
-export default async function Attacks({ attacks }: { attacks: Pokemon["attacks"] }) {
+export default async function Attacks({
+  attacks,
+}: {
+  attacks: Pokemon["attacks"];
+}) {
   await Bun.sleep(1000);
   return (
     <div>
