@@ -1,6 +1,6 @@
 # view-transitions-brisa
 
-Project created with [Brisa](https://github.com/brisa-build/brisa).
+Project created with [Brisa](https://brisa.build).
 
 ## Getting Started
 
