@@ -79,3 +79,10 @@ export default function PokemonPage({}, { route }: RequestContext) {
     </div>
   );
 }
+
+// If you want to prerender this page, you can use the following code:
+// export async function prerender() {
+//   return pokemons.map((pokemon) => ({
+//     slug: pokemon.slug,
+//   }));
+// }

@@ -9,7 +9,7 @@
     "start": "brisa start"
   },
   "dependencies": {
-    "brisa": "0.0.51"
+    "brisa": "0.0.54"
   },
   "devDependencies": {
     "@flydotio/dockerfile": "0.5.7",
