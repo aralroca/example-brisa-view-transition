@@ -1,8 +1,7 @@
 import type { Configuration } from "brisa";
+import vercel from "brisa-adapter-vercel";
 
 export default {
-  // If you want to use Brisa's as static site generator, you can set
-  // the output to "static" (default: "bun").
-  // Also "node", "desktop", "android" and "ios" are available.
-  output: "bun",
+  output: "node",
+  outputAdapter: vercel({})
 } satisfies Configuration;

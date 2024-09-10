@@ -9,10 +9,10 @@
     "start": "brisa start"
   },
   "dependencies": {
-    "brisa": "0.0.206"
+    "brisa": "0.0.206",
+    "brisa-adapter-vercel": "0.0.206"
   },
   "devDependencies": {
-    "@flydotio/dockerfile": "0.5.8",
     "@types/bun": "latest"
   },
   "peerDependencies": {
