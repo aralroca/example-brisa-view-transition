@@ -5,7 +5,7 @@ export default async function Attacks({
 }: {
   attacks: Pokemon["attacks"];
 }) {
-  await Bun.sleep(1000);
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   return (
     <div>
       <h4 class="font-bold text-lg pb-6">Attacks</h4>

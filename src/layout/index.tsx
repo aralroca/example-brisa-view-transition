@@ -18,7 +18,8 @@ export default function Layout({ children }: { children: JSX.Element }) {
 
         <style>
           {dangerHTML(`
-      :root {
+      html {
+        scroll-behavior: smooth;
       }
       body {
         background-color: theme(colors.gray.50);
