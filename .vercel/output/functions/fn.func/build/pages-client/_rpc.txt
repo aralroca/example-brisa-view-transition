@@ -1,0 +1,2 @@
+/pages/index.js
+/pages/pokemon/[slug].js

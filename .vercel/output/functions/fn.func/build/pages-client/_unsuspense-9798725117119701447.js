@@ -1,0 +1,1 @@
+l$=new Set;u$=(k)=>{const g=(f)=>document.getElementById(f);l$.add(k);for(let f of l$){const j=g(`S:${f}`),h=g(`U:${f}`);if(j&&h)l$.delete(f),j.replaceWith(h.content.cloneNode(!0)),h.remove(),g(`R:${f}`)?.remove()}};

@@ -1,0 +1,13 @@
+{
+  "name": "brisa-app",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "brisa": "0.0.206"
+  }
+}
