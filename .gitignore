@@ -5,3 +5,4 @@ build
 tsconfig.tsbuildinfo
 out
 !.vercel/output/functions/fn.func/build
+!.vercel/output/functions/fn.func/build/node_modules
