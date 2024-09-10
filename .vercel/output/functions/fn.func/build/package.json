@@ -8,6 +8,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "brisa": "0.0.206"
+    "brisa": "0.0.207"
   }
 }

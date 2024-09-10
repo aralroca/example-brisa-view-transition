@@ -9,8 +9,8 @@
     "start": "brisa start"
   },
   "dependencies": {
-    "brisa": "0.0.206",
-    "brisa-adapter-vercel": "0.0.206"
+    "brisa": "0.0.207",
+    "brisa-adapter-vercel": "0.0.207"
   },
   "devDependencies": {
     "@types/bun": "latest"

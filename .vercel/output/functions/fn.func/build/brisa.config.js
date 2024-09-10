@@ -25,7 +25,7 @@ function N({ memory: k, regions: H, maxDuration: J } = {}) {
       const z = q.join(Y, "functions", "fn.func"), Z = q.join(z, "package.json"), w = q.join(z, ".vc-config.json");
       if (await P({ useFileSystem: true }), !await j.exists(z))
         await j.mkdir(z, { recursive: true });
-      const A = { runtime: "nodejs20.x", handler: "build/server.js", launcherType: "Nodejs", supportsResponseStreaming: true, environment: { USE_HANDLER: "true" } };
+      const A = { runtime: "nodejs20.x", handler: "build/server.js", launcherType: "Nodejs", experimentalResponseStreaming: true, environment: { USE_HANDLER: "true" } };
       if (k)
         A.memory = k;
       if (H)
@@ -65,7 +65,7 @@ var y = /(\/?index)?\.html?$/;
 // brisa.config.ts
 var brisa_config_default = {
   output: "node",
-  outputAdapter: N({})
+  outputAdapter: N()
 };
 export {
   brisa_config_default as default
